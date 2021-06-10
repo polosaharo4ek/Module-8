@@ -1,0 +1,152 @@
+@media (max-width:767px){
+    .container{ 
+        width: 320px;
+    }
+
+    .banner{
+        width: 320px;
+        height: 540px;
+        padding-top: 20px;
+        background-image: url(/img/banner-mobile.jpg);
+    }
+
+    .page-nav-buttons{
+        display: flex;
+        flex-basis: 220px;
+        justify-content: center;
+        margin-bottom: 118px;
+    }
+
+    .text{
+        margin: 35px 0 17px
+    }
+    
+    .subtext{
+        margin: 0 50px 17px;
+    }
+
+    .section-title{
+        margin: 0 0 20px;
+    }
+
+    .page-main{
+        padding: 0 22px;
+    }
+
+    .partners-item-pictures{
+        margin: 0 auto 20px;
+    }
+
+    .partner-name{
+        margin: 20px 0 16px;
+    }
+    
+    .partner-bio{
+        margin: 0 0 28px;
+    }
+}
+/* TABLET VERSION */
+@media (min-width: 768px) {
+    .container{
+        width: 768px;
+        padding: 45px 45px 0;
+    }
+
+    .banner{
+        background-image: url(/img/banner-tablet.jpg);
+        width: 100%;
+        height: 700px;
+        margin-bottom: 70px;
+    }
+
+    .page-nav{
+        display: flex; 
+        flex-direction: row-reverse;
+        flex-basis: 663px;
+        justify-content: space-between;
+        margin-bottom: 140px;
+    }
+
+    .text{
+        font-size: 52px;
+        line-height: 62px;
+        display: block;
+        width: 505px;
+        margin: 0 auto 25px;
+    }
+
+    .subtext{
+        font-size: 24px;
+        line-height: 29px;
+        margin: 0 0 33px;
+    }
+
+    .find-button{
+        width: 225px;
+
+    }
+
+    .page-main{
+        padding: 0 138px 0;
+    }
+
+    .section-title{
+        margin-bottom: 35px;
+    }
+
+    .partners-list{
+        width: 490px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+
+    .partners-item{
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: center;
+        margin-bottom: 55px;
+    }
+
+    .partners-item-pictures{
+        margin: 0 auto;
+    }
+
+    .partners-item:nth-last-child(-n+2){
+        margin-bottom: 35px;
+    }
+
+    .more{
+        width: 193px;
+        margin-bottom: 40px;
+    }
+}
+
+/* DESKTOP VARIANT */
+
+@media screen and (min-width: 1440px){
+
+
+    .container{
+        width: 1440px;
+        padding: 0 250px 0;
+    }
+
+    .banner{
+        background-image: url(/img/banner-desktop.jpg);
+        height: 700px;
+        padding-top: 40px;
+    }
+
+    .partners-list{
+        width: 942px;
+    }
+
+    .partners-item{
+        margin-bottom: 35px;
+    }
+}
+    
